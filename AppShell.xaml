@@ -1,0 +1,12 @@
+<Shell
+    x:Class="TodoListApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:TodoListApp.Views">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:TodoItemPage}"
+        Route="MainPage" />
+
+</Shell>
